@@ -5,8 +5,7 @@ var _options
 function config(options) {
 	_options = options
 	_options.targetDomId = 'app'
-	_options.startAppName = 'mk-app-root' //mk-template-root
-	//options.apps['mk-template-root'].config({defaultAppName:'app-demo'})
+	_options.startAppName = 'mk-app-root' 
 
 	_options.toast = Toast
 	_options.notification = Notification
