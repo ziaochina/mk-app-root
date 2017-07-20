@@ -1,0 +1,46 @@
+{
+  "_from": "mk-app-root",
+  "_id": "mk-app-root@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-gP5yuQ8Hj7+MglZ+ZyTo086G5smb8Hpo4+LhxJ9feKVqPoQmSTMtnNhYQJExikT9nsO7mJdFGKOcFdKKvM6udg==",
+  "_location": "/mk-app-root",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mk-app-root",
+    "name": "mk-app-root",
+    "escapedName": "mk-app-root",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mk-app-root/-/mk-app-root-1.0.1.tgz",
+  "_shasum": "078763ee2a953718a7e7220e4c9a739aa8b56041",
+  "_spec": "mk-app-root",
+  "_where": "/home/zlj/my/github/self/mk-app-root/master/example",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ziaochina/mk-app-root/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "mk-app-root",
+  "homepage": "https://github.com/ziaochina/mk-app-root#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "mk-app-root",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziaochina/mk-app-root.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
