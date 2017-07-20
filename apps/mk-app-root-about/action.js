@@ -5,6 +5,7 @@ import config from './config'
 class action {
     constructor(option) {
         this.metaAction = option.metaAction
+        this.config = config.current
     }
 
     onInit = ({ component, injections }) => {
@@ -12,6 +13,7 @@ class action {
         this.injections = injections
         injections.reduce('init')
     }
+
 
     handleAboutClick = () => {
         this.component.props.onRedirect({ appName: 'mk-app-root-about', appParams: {} })

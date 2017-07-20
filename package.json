@@ -1,6 +1,6 @@
 {
   "name": "mk-app-root",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mk-app-root",
   "main": "index.js",
   "scripts": {
