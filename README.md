@@ -20,5 +20,5 @@ $ npm start
 
 ```
 $ npm i mk-tools -g
-$ mk clone mk-app-root [别名可空]
+$ mk clone mk-app-root apps/root
 ```
