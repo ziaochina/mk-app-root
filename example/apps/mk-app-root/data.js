@@ -15,12 +15,14 @@ export function getMeta() {
 }
 
 export function getInitState() {
-    const hash = document.location.hash || ''
-    const startAppName = hash ? hash.substr(1) : config.current.startAppName
-
+    /*
+    const hash = document.location.hash || '#/'
+    debugger
+    const startAppName = hash == '#/' ? hash.substr(1) : 
+*/
     return {
         data: {
-            currentAppName: startAppName
+            currentAppName: config.current.startAppName
         }
     }
 }
