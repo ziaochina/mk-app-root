@@ -15,11 +15,6 @@ export function getMeta() {
 }
 
 export function getInitState() {
-    /*
-    const hash = document.location.hash || '#/'
-    debugger
-    const startAppName = hash == '#/' ? hash.substr(1) : 
-*/
     return {
         data: {
             currentAppName: config.current.startAppName
