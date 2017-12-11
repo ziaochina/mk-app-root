@@ -5,7 +5,7 @@ import './style.less'
 
 export default {
     name: "mk-app-root",
-    version: "1.0.7",
+    version: "1.0.8",
     description: "mk-app-root",
     meta: data.getMeta(),
     components: [],
