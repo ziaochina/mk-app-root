@@ -31,12 +31,12 @@ plugins.push(extractCSS)
 module.exports = {
     entry: ["./index.umd.js"],
     output: {
+        filename: env === 'production' ? 'mk-app-root.min.js': 'mk-app-root.js',
         path: path.join(__dirname, "/dist/"),
         library: "MKAppRoot",
-        libraryTarget: "umd",
-        publicPath: '/apps/mk-app-root/'
+        libraryTarget: "umd"
     },
-
+    
     resolve: {
         extensions: [".js"]
     },
@@ -85,7 +85,7 @@ module.exports = {
             commonjs2:"MK.metaEngine",
             amd:"MK.metaEngine",
             root:"MK.metaEngine"
-        },
+        }
     },
 
     module: {

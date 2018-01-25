@@ -1,7 +1,8 @@
+__webpack_public_path__ = window["__pub_mk-app-root__"];
 
-import config from './config'
-import * as data from './data'
-import './style.less'
+const data = require('./data')
+const config = require('./config')
+require('./style.less')
 
 export default {
     name: "mk-app-root",
